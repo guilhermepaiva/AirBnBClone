@@ -9,6 +9,7 @@ AirBnBClone is a meticulously crafted iOS application embodying the core functio
 - Reviews and Ratings: Share and view feedback on properties and hosts.
 
 ## Technologies Utilized
+- iOS 17 and XCode 15: Focused on latest technologies.
 - Swift 5: The project is written entirely in Swift 5, leveraging its powerful and modern syntax.
 - SwiftUI: Employing SwiftUI to craft an engaging and responsive user interface.
 - SwiftData: For robust and efficient data management and persistence, instead of CoreData.
