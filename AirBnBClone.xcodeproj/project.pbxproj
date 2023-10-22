@@ -51,7 +51,11 @@
 		CD109FD62AE5795E00EB6306 /* AirBnBClone */ = {
 			isa = PBXGroup;
 			children = (
-				CD109FD72AE5795E00EB6306 /* AirBnBCloneApp.swift */,
+				CD109FE52AE579B000EB6306 /* App */,
+				CD109FE62AE579D200EB6306 /* Core */,
+				CD109FE72AE579D800EB6306 /* Extensions */,
+				CD109FE82AE579F200EB6306 /* Models */,
+				CD109FE92AE579F700EB6306 /* Utils */,
 				CD109FD92AE5795E00EB6306 /* ContentView.swift */,
 				CD109FDB2AE5796100EB6306 /* Assets.xcassets */,
 				CD109FDD2AE5796100EB6306 /* Preview Content */,
@@ -65,6 +69,98 @@
 				CD109FDE2AE5796100EB6306 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD109FE52AE579B000EB6306 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CD109FD72AE5795E00EB6306 /* AirBnBCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CD109FE62AE579D200EB6306 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CD109FF02AE57AC600EB6306 /* Wishlists */,
+				CD109FEF2AE57ABF00EB6306 /* TabBar */,
+				CD109FEE2AE57AB000EB6306 /* Root */,
+				CD109FED2AE57AA700EB6306 /* Profile */,
+				CD109FEC2AE57A9300EB6306 /* MapView */,
+				CD109FEB2AE57A8C00EB6306 /* Listings */,
+				CD109FEA2AE57A8400EB6306 /* Explore */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CD109FE72AE579D800EB6306 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD109FE82AE579F200EB6306 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD109FE92AE579F700EB6306 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CD109FEA2AE57A8400EB6306 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		CD109FEB2AE57A8C00EB6306 /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		CD109FEC2AE57A9300EB6306 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		CD109FED2AE57AA700EB6306 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CD109FEE2AE57AB000EB6306 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CD109FEF2AE57ABF00EB6306 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CD109FF02AE57AC600EB6306 /* Wishlists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wishlists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
